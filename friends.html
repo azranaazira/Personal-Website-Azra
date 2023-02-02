@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html>
+<title>My Friend_Azra</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open Sans">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+h1,h2,h3,h4,h5,h6 {font-family: "Oswald"}
+body {font-family: "Open Sans"}
+
+body  {
+  background-image: url("images/pink.jpg");
+}
+
+div.e {
+  font-size: 100%;
+}
+
+.glow {
+  font-size: 80px;
+  color: #fff;
+  text-align: center;
+  -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes glow {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+  }
+  
+  to {
+    text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+  }
+
+
+
+</style>
+
+<div class="w3-top">
+  <div class="w3-bar w3-white w3-wide w3-padding w3-card">
+ 
+      <a href="index.html"  class="w3-bar-item w3-button w3-hover-pale-red">Home Page</a>
+      <a href="biodata.html"  class="w3-bar-item w3-button w3-hover-pale-red">Biodata</a>
+      <a href="education.html"  class="w3-bar-item w3-button w3-hover-pale-red">Education</a>
+      <a href="experience.html"  class="w3-bar-item w3-button w3-hover-pale-red">Experience</a>
+      <a href="family.html"  class="w3-bar-item w3-button w3-hover-pale-red">Family</a> 
+
+        <div  class="w3-dropdown-hover">
+      <button class="w3-button">Gallery</button>
+
+      <div class="w3-dropdown-content w3-center w3-bar-block w3-card-4">
+        <a href="picture.html" class="w3-bar-item w3-button w3-hover-pale-red">Picture</a>
+        <a href="video.html" class="w3-bar-item w3-button w3-hover-pale-red">Video</a>
+      </div> </div>
+
+      <a href="friends.html"  class="w3-bar-item w3-button w3-hover-pale-red">Friend</a>  
+      <a href="hobbies.html"  class="w3-bar-item w3-button w3-hover-pale-red">Hobbies</a>
+      <a href="contact.html"  class="w3-bar-item w3-button w3-hover-pale-red">Contact</a>
+    </div>
+  </div>
+</div>
+
+
+
+
+  
+<!-- w3-content defines a container for fixed size centered content, 
+and is wrapped around the whole page content, except for the footer in this example -->
+<div class="w3-content" style="max-width:1600px">
+
+<!-- Header -->
+<header class="w3-container w3-center w3-padding-32"> 
+  <h1><h1 class="glow" <b>MY FRIENDS</b></h1>
+  <p>_Welcome to the personal website of <span class="w3-tag">AZRA_</span></p>
+</header>
+
+
+
+  <!-- Grid -->
+  <div class="w3-row w3-padding w3-border">
+
+    <!-- Blog entries -->
+    <div class="w3-col l8 s12">
+    
+
+      <!-- Blog entry -->
+      <div class="w3-container w3-white w3-margin w3-padding-large">
+        <div class="w3-center">
+          <h3>FRIENDS FOREVER</h3>
+        </div>
+
+        <div class="w3-justify">
+          <center><img src="images/group.jpg" alt="group" style="width:40%"="auto"></center>
+          </a>
+          <center><p>Nasuha, Maizatul and Puteri are my close friends.<br> 
+They were among the first friends I made when I began my diploma course.<br> 
+Almost all group projects are completed with them.<br> 
+Despite occasional misunderstandings, we have remained friends throughout the years.</p></center>
+          <p class="w3-left"><button class="w3-button w3-white w3-border" onclick="likeFunction(this)"><b><i class="fa fa-thumbs-up"></i> Like</b></button></p>
+          <p class="w3-clear"></p>
+          
+          <!-- Example of comment field -->
+          <div id="demo2" style="display:none">
+            <div class="w3-row">
+              <hr>
+              <div class="w3-col l2 m3">
+                <img src="/w3images/girl_train.jpg" style="width:90px;">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Blog entry -->
+      <div class="w3-container w3-white w3-margin w3-padding-large">
+        <div class="w3-center">
+          <h3>CAMPUS FRIENDS</h3>
+        </div>
+
+        <div class="w3-justify">
+          <center><img src="images/friends.jpg" alt="friends" style="width:40%"="auto"></center>
+          </a>
+          <center><p>Sofiya and Aisyah are friends I met at campus. <br>
+We only met on Google Meet during our two years of online distance learning. <br>
+When I came on campus, I met two really wonderful ladies who assisted me greatly. <br>
+They both spent a lot of time with the four of us as well. <br>
+We frequently eat lunch, visit the library, and study together.</p></center>
+          <p class="w3-left"><button class="w3-button w3-white w3-border" onclick="likeFunction(this)"><b><i class="fa fa-thumbs-up"></i> Like</b></button></p>
+          <p class="w3-clear"></p>
+          
+          <!-- Example of comment field -->
+          <div id="demo3" style="display:none">
+            <hr>
+            <div class="w3-row w3-margin-bottom">
+              <div class="w3-col l2 m3">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <!-- Blog entry -->
+      <div class="w3-container w3-white w3-margin w3-padding-large">
+        <div class="w3-center">
+          <h3>CLASSMATES</h3>
+        </div>
+
+        <div class="w3-justify">
+          <center><img src="images/classmates.jpg" alt="classmates" style="width:40%"="auto"></center>
+          </a>
+          <center><p>Our class consists of 22 students who have known each other for five semesters.<br>
+We only connected and communicated with each other online for two years.<br> 
+Last semester we were able to meet face to face and become closer to each other.<br> 
+As a classmates, we took the opportunity to take a lot of images and videos together to create memories.</p></center>
+          <p class="w3-left"><button class="w3-button w3-white w3-border" onclick="likeFunction(this)"><b><i class="fa fa-thumbs-up"></i> Like</b></button></p>
+          <p class="w3-clear"></p>
+          
+          <!-- Example of comment field -->
+          <div id="demo3" style="display:none">
+            <hr>
+            <div class="w3-row w3-margin-bottom">
+              <div class="w3-col l2 m3">
+                <img src="/w3images/girl_mountain.jpg" style="width:90px;">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+
+    <!-- END BLOG ENTRIES -->
+    </div>
+
+    <!-- About/Information menu -->
+    <div class="w3-col l4">
+      <!-- About Card -->
+      <div class="w3-white w3-margin">
+        <center><img src="images/me2.jpg" alt="Azra" style="width:60%"></center>
+        <div class="w3-container w3-white">
+          <center><h4><p style="font-size:30px">
+          &#128512; &#128516; &#128525; &#128151;
+          </p></h4></center>
+          <p>All about me and myself. 
+          Thank you for being here!</p>
+        </div>
+      </div>
+      <hr>
+
+
+
+
+    <!-- END About/Intro Menu -->
+    </div>
+
+  <!-- END GRID -->
+  </div>
+
+<!-- END w3-content -->
+</div>
+
+
+<!-- Footer -->
+<footer class="w3-container w3-dark-grey w3-padding-32 w3-margin-top">
+<a href="#" class="w3-button w3-black w3-padding-large w3-margin-bottom"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>  
+<center>
+<audio controls autoplay>
+  <source src="sources/Deeper - e-soundtrax.ogg" type="audio/ogg">
+  <source src="sources/Deeper - e-soundtrax.mp3" type="audio/mpeg">
+</audio>
+</center>
+
+<p><center>
+<div class="e">All right reserved to respective owner. Please contact administrator for more information.<br>
+Admin can be contacted at azranaziera@gmail.com / 01155072602.<br>
+Page last updated : 2 FEBRUARY 2023 at 2.00 AM
+</div></center></p>
+</footer>
+
+</body>
+</html>

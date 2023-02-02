@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html>
+<title>My Hobbies_Azra</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open Sans">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+h1,h2,h3,h4,h5,h6 {font-family: "Oswald"}
+body {font-family: "Open Sans"}
+
+body  {
+  background-image: url("images/pink.jpg");
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111111;
+}
+.active {
+  background-color: #4CAF50;
+}
+
+
+div.e {
+  font-size: 100%;
+}
+
+.glow {
+  font-size: 80px;
+  color: #fff;
+  text-align: center;
+  -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes glow {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+  }
+  
+  to {
+    text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+  }
+
+
+
+</style>
+
+<div class="w3-top">
+  <div class="w3-bar w3-white w3-wide w3-padding w3-card">
+ 
+      <a href="index.html"  class="w3-bar-item w3-button w3-hover-pale-red">Home Page</a>
+      <a href="biodata.html"  class="w3-bar-item w3-button w3-hover-pale-red">Biodata</a>
+      <a href="education.html"  class="w3-bar-item w3-button w3-hover-pale-red">Education</a>
+      <a href="experience.html"  class="w3-bar-item w3-button w3-hover-pale-red">Experience</a>
+      <a href="family.html"  class="w3-bar-item w3-button w3-hover-pale-red">Family</a> 
+
+        <div  class="w3-dropdown-hover">
+      <button class="w3-button">Gallery</button>
+
+      <div class="w3-dropdown-content w3-center w3-bar-block w3-card-4">
+        <a href="picture.html" class="w3-bar-item w3-button w3-hover-pale-red">Picture</a>
+        <a href="video.html" class="w3-bar-item w3-button w3-hover-pale-red">Video</a>
+      </div> </div>
+
+      <a href="friends.html"  class="w3-bar-item w3-button w3-hover-pale-red">Friend</a>  
+      <a href="hobbies.html"  class="w3-bar-item w3-button w3-hover-pale-red">Hobbies</a>
+      <a href="contact.html"  class="w3-bar-item w3-button w3-hover-pale-red">Contact</a>
+    </div>
+  </div>
+</div>
+
+
+
+  
+<!-- w3-content defines a container for fixed size centered content, 
+and is wrapped around the whole page content, except for the footer in this example -->
+<div class="w3-content" style="max-width:1600px">
+
+<!-- Header -->
+<header class="w3-container w3-center w3-padding-32"> 
+  <h1><h1 class="glow" <b>MY HOBBIES</b></h1>
+  <p>_Welcome to the personal website of <span class="w3-tag">AZRA_</span></p>
+</header>
+
+
+
+  <!-- Grid -->
+  <div class="w3-row w3-padding w3-border">
+
+    <!-- Blog entries -->
+    <div class="w3-col l8 s12">
+    
+
+      <!-- Blog entry -->
+      <div class="w3-container w3-white w3-margin w3-padding-large">
+        <div class="w3-center">
+          <h3>FOOD HUNTING</h3>
+        </div>
+
+        <div class="w3-justify">
+          <center><img src="images/food.jpg" alt="Nasken Coffee" style="width:60%"="auto"></center>
+          </a>
+          <center><p><strong>Food</strong> helps light up my mood a lot!!</p></center>
+          <p>I enjoy food hunting for various types of cuisine, regardless of whether it is western or local food.
+             Nowadays, the majority of the restaurants I visit serve western food.
+             Delicious food can assist me to light up my mood a lot. 
+             Most of restaurant now serves a range of excellent dishes such as
+             spaghetti carbonara, chicken chop, and meatball because people like it.
+             The food shown above is what my family and I ate at Ikea. 
+             Most people order fried chicken and meatballs because they are popular.</p>
+          <p class="w3-left"><button class="w3-button w3-white w3-border" onclick="likeFunction(this)"><b><i class="fa fa-thumbs-up"></i> Like</b></button></p>
+          <p class="w3-clear"></p>
+          
+          <!-- Example of comment field -->
+          <div id="demo2" style="display:none">
+            <div class="w3-row">
+              <hr>
+              <div class="w3-col l2 m3">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Blog entry -->
+      <div class="w3-container w3-white w3-margin w3-padding-large">
+        <div class="w3-center">
+          <h3>Travelling</h3>
+        </div>
+
+        <div class="w3-justify">
+          <center><img src="images/sabah.jpg" alt="sabah" style="width:60%"="auto"></center>
+          </a>
+          <center><p><strong>Travelling</strong> give a million new experiences!!</p></center>
+          <p>I enjoy travelling to different locations with my family. Besides spending time with them, I gained a variety of new experiences.
+             Experience is something that must be gained and cannot be purchased.
+             There are numerous new experiences to be had. For example, when I travelled to Sabah in 2018, I was able to board a plane for the first time.
+	     In addition, I was able to ride a boat to Manukan and Sapi Islands while there.</p>
+          <p class="w3-left"><button class="w3-button w3-white w3-border" onclick="likeFunction(this)"><b><i class="fa fa-thumbs-up"></i> Like</b></button></p>
+          <p class="w3-clear"></p>
+          
+          <!-- Example of comment field -->
+          <div id="demo3" style="display:none">
+            <hr>
+            <div class="w3-row w3-margin-bottom">
+              <div class="w3-col l2 m3">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <!-- Blog entry -->
+      <div class="w3-container w3-white w3-margin w3-padding-large">
+        <div class="w3-center">
+          <h3>Watching Korean Drama</h3>
+        </div>
+
+        <div class="w3-justify">
+          <a href="https://www.netflix.com/my-en/title/80188351">
+          <center><img src="images/reply1988.jpg" alt="Reply 1988" style="auto"></center>
+          </a>
+          <center><p><strong>Dramas</strong> teaches countless valuable lessons that are worthwhile!</p></center>
+          <p>I am somewhat different from my friends who prefer to watch English and Chinese dramas.  
+             Moreover, I am familiar with Korean dramas because all of my sisters enjoy music and dramas from there. 
+             Korean dramas are more interesting and diverse than Malaysian dramas that mainly focus on romance. 
+             I recommend the drama Reply 1988 to my friends because the storyline is excellent and contains valuable lessons. 
+             The five buddies in the photo above are the main characters of this drama, which also emphasises family and their friendship.</p>
+          <p class="w3-left"><button class="w3-button w3-white w3-border" onclick="likeFunction(this)"><b><i class="fa fa-thumbs-up"></i> Like</b></button></p>
+          <p class="w3-clear"></p>
+          
+          <!-- Example of comment field -->
+          <div id="demo3" style="display:none">
+            <hr>
+            <div class="w3-row w3-margin-bottom">
+              <div class="w3-col l2 m3">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+
+    <!-- END BLOG ENTRIES -->
+    </div>
+
+    <!-- About/Information menu -->
+    <div class="w3-col l4">
+      <!-- About Card -->
+      <div class="w3-white w3-margin">
+        <center><img src="images/me2.jpg" alt="Azra" style="width:60%"></center>
+        <div class="w3-container w3-white">
+          <center><h4><p style="font-size:30px">
+          &#128512; &#128516; &#128525; &#128151;
+          </p></h4></center>
+          <p>All about me and myself.
+          Thank you for being here!</p>
+        </div>
+      </div>
+      <hr>
+
+      <!-- Posts -->
+      <div class="w3-white w3-margin">
+        <div class="w3-container w3-padding w3-black">
+          <h4>Suggested Restaurant:</h4> 
+        </div>
+        <ul class="w3-ul w3-hoverable w3-white">
+          <li class="w3-padding-16">
+            <a href="https://naskencoffee.com/">
+            <img src="images/nasken.jpg" alt="Norway" style="width:60%" class="w3-hover-opacity">
+          </li>
+          <li class="w3-padding-16">
+            <a href="https://www.facebook.com/nasikertas16/">
+            <img src="images/kedainasikertas.jpg" alt="Norway" style="width:60%" class="w3-hover-opacity">
+          </li>
+      </div>
+      <hr>
+
+      <!-- Posts -->
+      <div class="w3-white w3-margin">
+        <div class="w3-container w3-padding w3-black">
+          <h4>Suggested Places:</h4>
+        </div>
+        <ul class="w3-ul w3-hoverable w3-white">
+          <li class="w3-padding-16">
+            <a href="https://www.tripadvisor.com/Attractions-g298283-Activities-Langkawi_Langkawi_District_Kedah.html">
+            <img src="images/langkawi.jpg" alt="Norway" style="width:60%" class="w3-hover-opacity">
+          </li>
+          <li class="w3-padding-16">
+            <a href="https://www.tripadvisor.com.my/Tourism-g660784-Genting_Highlands_Pahang-Vacations.html">
+            <img src="images/genting.jpg" alt="Norway" style="width:50%" class="w3-hover-opacity">
+          </li>
+      </div>
+      <hr>
+
+      <!-- Posts -->
+      <div class="w3-white w3-margin">
+        <div class="w3-container w3-padding w3-black">
+          <h4>Suggested Dramas:</h4>
+        </div>
+        <ul class="w3-ul w3-hoverable w3-white">
+          <li class="w3-padding-16">
+            <a href="https://www.netflix.com/my-en/title/81357268">
+            <img src="images/drama1.jpg" alt="Norway" style="width:60%" class="w3-hover-opacity">
+          </li>
+          <li class="w3-padding-16">
+            <a href="https://www.netflix.com/my-en/title/81093126">
+            <img src="images/drama2.jpg" alt="Norway" style="width:60%" class="w3-hover-opacity">
+          </li>
+      </div>
+      <hr>
+
+    <!-- END About/Intro Menu -->
+    </div>
+
+  <!-- END GRID -->
+  </div>
+
+<!-- END w3-content -->
+</div>
+
+
+<!-- Footer -->
+<footer class="w3-container w3-dark-grey w3-padding-32 w3-margin-top">
+<a href="#" class="w3-button w3-black w3-padding-large w3-margin-bottom"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>  
+<center>
+<audio controls autoplay>
+  <source src="sources/Deeper - e-soundtrax.ogg" type="audio/ogg">
+  <source src="sources/Deeper - e-soundtrax.mp3" type="audio/mpeg">
+</audio>
+</center>
+
+<p><center>
+<div class="e">All right reserved to respective owner. Please contact administrator for more information.<br>
+Admin can be contacted at azranaziera@gmail.com / 01155072602.<br>
+Page last updated : 2 FEBRUARY 2023 at 2.00 AM
+</div></center></p>
+</footer>
+
+</body>
+</html>
